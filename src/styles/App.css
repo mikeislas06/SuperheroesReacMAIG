@@ -1,0 +1,11 @@
+body {
+    background-image: url("../images/blue.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form h2 {
+    text-align: center;
+}

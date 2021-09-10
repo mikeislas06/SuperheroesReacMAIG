@@ -1,0 +1,27 @@
+.hero-card-home {
+    width: 35%;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.hero-card-home img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-card-home .hero-card__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-btn {
+    background-color: #b61919;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}

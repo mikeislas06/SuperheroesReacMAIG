@@ -1,0 +1,61 @@
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
+    header a {
+        font-size: 1.2rem;
+    }
+
+    form {
+        margin-top: 200px;
+    }
+
+    form input[type="submit"] {
+        font-size: 0.9rem;
+    }
+
+    .hero-card {
+        margin-top: 150px;
+        grid-template-columns: 50% 50%;
+        gap: 1rem;
+    }
+
+    .hero-card__image {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-card__image img {
+        max-width: 100%;
+    }
+
+    .hero-card__information p {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0.8rem;
+    }
+
+    header a {
+        font-size: 1rem;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .hero-card-home {
+        width: 50%;
+    }
+
+    .hero-card__information p {
+        font-size: 0.8rem;
+    }
+
+    .go-back-btn {
+        width: 20%;
+    }
+}
